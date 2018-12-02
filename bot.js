@@ -7,9 +7,9 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "512596390745079829"; // ايدي السررفر
-var channel = "515246118460981252";//ايدي الروم
+var channel = "515246113926676498";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('** Hi , Hi , Hi , Hi ,Hi ,Hi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,Hi Dreaaam , HI , HI ,HI , HI ,HI ,HI ,HI ,HI HI, HI, HI ,HI محمض ميضو محمض ميضو**')
+    client.guilds.get(server).channels.get(channel).send('** Hi , Hi , Hi , Hi ,Hi ,Hi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,Hi Dreaaam , محمض ميضو لقمد نق محمض ميضو لقمد نق محمض ميضو القمد نق محمض ميضو لقمد نق #سيث رولنظ**')
     },305);
 })
 
@@ -17,9 +17,10 @@ var channel = "515246118460981252";//ايدي الروم
 
 client.on('ready', async() => {
 var server = "512596390745079829"; // ايدي السررفر
-var channel = "515246118460981252";//ايدي الروم
+var channel = "515246113926676498";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
+    },8.64e+7);
 })
 
 
@@ -33,7 +34,24 @@ message.channel.send(args);
 }
 });
  
+client.on('message', message => {
+if(message.content.startsWith('2s')) {
+if(message.author.id !== "#daily") return;
+var args = message.content.split(' ').slice(1).join(' ');
+message.channel.send(args);
+}
+});
+ client.on('message', message => {
+    if(message.content === '-راتب'){
+        message.channel.send('#daily')
+    }
+});
 
+client.on('message', message => {
+    if(message.content === '-مبلغ'){
+        message.channel.send('#credits')
+    }
+});
 
 
 
