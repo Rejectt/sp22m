@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('ready', async() => {
 var server = "512596390745079829"; // ايدي السررفر
-var channel = "515246118460981252";//ايدي الروم
+var channel = "515246090056892437";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** Hi , Hi , Hi , Hi ,Hi ,Hi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,HiHi , Hi , Hi , Hi ,Hi Dreaaam , محمض ميضو لقمد نق محمض ميضو لقمد نق محمض ميضو القمد نق محمض ميضو لقمد نق #سيث رولنظ**')
     },305);
@@ -17,7 +17,7 @@ var channel = "515246118460981252";//ايدي الروم
 
 client.on('ready', async() => {
 var server = "512596390745079829"; // ايدي السررفر
-var channel = "515246118460981252";//ايدي الروم
+var channel = "515246090056892437";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('#daily')
     },8.64e+7);
