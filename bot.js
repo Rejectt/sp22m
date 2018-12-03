@@ -48,12 +48,6 @@ message.channel.send(args);
 });
 
 client.on('message', message => {
-  if(message.content === '-ريب'){
-     message.channel.send('#rep @CherishCherry#2048')
-  }
- });
-
-client.on('message', message => {
     if(message.content === '-مبلغ'){
         message.channel.send('#credits')
     }
